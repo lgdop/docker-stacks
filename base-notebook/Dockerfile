@@ -25,7 +25,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     locales \
     fonts-liberation \
  && rm -rf /var/lib/apt/lists/*
-
+RUN pip install pixiedust -y
 RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen
 
