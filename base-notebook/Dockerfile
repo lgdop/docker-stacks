@@ -20,6 +20,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
  && apt-get install -yq --no-install-recommends \
     wget \
     vim \
+    pip \
     bzip2 \
     ca-certificates \
     sudo \
