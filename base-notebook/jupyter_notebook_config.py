@@ -11,7 +11,7 @@ c = get_config()
 c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.port = 8888
 c.NotebookApp.open_browser = False
-c.NotebookApp.token = ''
+c.NotebookApp.password = u'sha1:c86e12b1d3b42a7d63e7c8c003e09cec'
 
 # https://github.com/jupyter/notebook/issues/3130
 c.FileContentsManager.delete_to_trash = False
